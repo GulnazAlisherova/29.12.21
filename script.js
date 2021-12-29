@@ -8,6 +8,9 @@ var student = {
   lastName: "Utanov",
   age: 20,
   occupied: false,
+  sayHello: function () {
+    console.log("Hello my name is " + this.firstName + "and I'm " + this.age + "years old!");
+  }
 };
 
 // output
@@ -21,7 +24,7 @@ var dog = {
 //update
 dog.age = 3;
 
-///add
+//add
 dog.color = "gray";
 // console.log(dog.color);
 
@@ -32,6 +35,8 @@ delete dog.color;
 dog.bark = function () {
   console.log("Woof, woof, wof!");
 }
-dog.bark();
+// dog.bark();
 dog.bark();
 
+student.firstName = "Aijan";
+student.age = 19;

@@ -86,4 +86,5 @@ document.write("</ul>");
 
 
 //built in properties and methods
-var numberExample
+var numberExample1 = 3.14;
+

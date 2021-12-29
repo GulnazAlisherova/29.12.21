@@ -11,4 +11,9 @@ var student = {
 };
 
 // output
-console.log(studentFirstName);
+console.log(student.firstName + " " + student.lastName);
+
+
+var dog = {
+  name: "Kumaiyk";
+}

@@ -16,4 +16,5 @@ console.log(student.firstName + " " + student.lastName);
 
 var dog = {
   name: "Kumaiyk";
+  age: 2,
 }

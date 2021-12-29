@@ -92,4 +92,4 @@ document.write("</ul>");
 var stringExample1 = "    Hello world!      ";
 console.log(stringExample1.length);
 
-console.log(stringExample1.includes("bye"));
+console.log(stringExample1.toUpperCase("bye"));

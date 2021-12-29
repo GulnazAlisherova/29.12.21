@@ -91,3 +91,5 @@ console.log(numberExample1.toString(2));
 
 var stringExample1 = "Hello world!";
 console.log(stringExample1.length);
+
+console.log(stringExample1.toLowerCase)

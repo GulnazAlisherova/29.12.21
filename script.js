@@ -86,5 +86,6 @@ document.write("</ul>");
 
 
 //built in properties and methods
-var numberExample1 = 3.14;
+var numberExample1 = 3.14157519798654;
+console.log(numberExample1.toFixed(2));
 

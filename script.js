@@ -28,8 +28,7 @@ dog.color = "gray";
 //delete
 delete dog.color;
 
-
-
 //Methods
-alert("hello");
-console.log("hello");
+dog.bark = function () {
+  console.log("Woof, woof, wof!");
+}

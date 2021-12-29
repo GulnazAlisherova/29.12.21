@@ -26,4 +26,7 @@ dog.age = 3;
 
 ///add 
 dog.color = "gray";
-console.log(dog.color);
+// console.log(dog.color);
+
+//delete
+delete dog.color;

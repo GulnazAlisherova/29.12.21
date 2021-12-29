@@ -74,4 +74,4 @@ shoppingList.pop();
 //remove from the start
 shoppingList.shift();
 
-//
+//show the list length

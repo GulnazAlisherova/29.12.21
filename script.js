@@ -32,3 +32,6 @@ delete dog.color;
 dog.bark = function () {
   console.log("Woof, woof, wof!");
 }
+dog.bark();
+dog.bark();
+

@@ -61,3 +61,17 @@ shoppingList [2] = "Tomato";
 // add to the end
 shoppingList.push("Cherry");
 // console.log(shoppingList);
+
+// add to the beginning
+shoppingList.unshift("Salt");
+console.log(shoppingList);
+
+
+//delete
+//remove from the end
+shoppingList.pop();
+
+//remove from the start
+shoppingList.shift();
+
+//

@@ -5,7 +5,7 @@ var studentOccupied = false;
 
 var student = {
   firstName: "Bakyt",
-  lastName: "Utanov" ,
+  lastName: "Utanov",
   age: 20,
   occupied: false,
 };
@@ -13,20 +13,23 @@ var student = {
 // output
 console.log(student.firstName + " " + student.lastName);
 
-
 var dog = {
   name: "Kumaiyk",
   age: 2,
-}
+};
 
-
-//update 
+//update
 dog.age = 3;
 
-
-///add 
+///add
 dog.color = "gray";
 // console.log(dog.color);
 
 //delete
 delete dog.color;
+
+
+
+//Methods
+alert("hello");
+console.log("hello");

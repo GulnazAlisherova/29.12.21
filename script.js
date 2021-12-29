@@ -89,3 +89,5 @@ document.write("</ul>");
 var numberExample1 = 3.14157519798654;
 console.log(numberExample1.toString(2));
 
+var stringExample1 = "Hello world!";
+console.log(stringExample1.length);

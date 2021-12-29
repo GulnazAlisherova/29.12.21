@@ -2,3 +2,13 @@ var studentFirstName = "Bakyt";
 var studentLastName = "Utanov";
 var studentAge = 20;
 var studentOccupied = false;
+
+var student = {
+  firstName: "Bakyt";
+  lastName: "Utanov";
+  age: 20,
+  occupied: false,
+};
+
+// output
+console.log(studentFirstName);

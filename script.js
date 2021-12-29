@@ -48,7 +48,7 @@
 var shoppingList1 = "Apple";
 var shoppingList2 = "Pear"
 
-var shoppingList = ["Apple", "Pear", "Pineapple", "Cherry", "Tomato", "Potato"];
+var shoppingList = ["Apple", "Pear", "Pineapple", "Cherry"];
 
 console.log(shoppingList [0]);
 console.log(shoppingList [1]);
@@ -77,6 +77,13 @@ shoppingList.shift();
 //show the list length
 console.log(shoppingList.length);
 
+document.write("<ul>");
 for (let i=0; i < shoppingList.length; i++) {
-  
+  document.write("<li>" + shoppingList[i] + "</li>");
 }
+
+document.write("</ul>");
+
+
+//built in properties and methods
+var numberExample

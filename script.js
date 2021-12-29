@@ -9,7 +9,7 @@ var student = {
   age: 20,
   occupied: false,
   sayHello: function () {
-    console.log("Hello my name is " + this.firstName + "and I'm " + this.age + "years old!");
+    console.log("Hello my name is " + this.firstName + " and I'm " + this.age + " years old!");
   }
 };
 
@@ -40,3 +40,12 @@ dog.bark();
 
 student.firstName = "Aijan";
 student.age = 19;
+student.sayHello();
+
+
+//ARRAYs
+
+var shoppingList1 = "Apple";
+var shoppingList2 = "Pear"
+
+var shoppingList = ["Apple", "Pear", "Pineapple", "Cherry", "Tomato", "Potato" 100, true];

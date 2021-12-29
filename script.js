@@ -86,10 +86,10 @@ document.write("</ul>");
 
 
 //built in properties and methods
-var numberExample1 = 3.14157519798654;
-console.log(numberExample1.toString(2));
+// var numberExample1 = 3.14157519798654;
+// console.log(numberExample1.toString(2));
 
-var stringExample1 = "Hello world!";
+var stringExample1 = "    Hello world!      ";
 console.log(stringExample1.length);
 
-console.log(stringExample1.toLowerCase)
+console.log(stringExample1.includes("bye"));

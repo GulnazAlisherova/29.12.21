@@ -49,3 +49,5 @@ var shoppingList1 = "Apple";
 var shoppingList2 = "Pear"
 
 var shoppingList = ["Apple", "Pear", "Pineapple", "Cherry", "Tomato", "Potato" 100, true];
+
+console.log(shoppingList [0]);

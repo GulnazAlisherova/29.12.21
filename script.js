@@ -75,3 +75,4 @@ shoppingList.pop();
 shoppingList.shift();
 
 //show the list length
+console.log(shoppingList.length);
